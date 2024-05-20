@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.ui.theme
+package com.taha.cleanarchitecturenoteapp.ui.theme
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors

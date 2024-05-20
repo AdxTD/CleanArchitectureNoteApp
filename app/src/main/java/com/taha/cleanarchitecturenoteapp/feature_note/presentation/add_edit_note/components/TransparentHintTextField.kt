@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.components
+package com.taha.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth

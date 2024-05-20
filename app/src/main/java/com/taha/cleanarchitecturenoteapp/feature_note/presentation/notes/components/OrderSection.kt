@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.notes.components
+package com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -10,9 +10,9 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util.NoteOrder
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.util.OrderType
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.notes.NotesEvent
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.util.NoteOrder
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.util.OrderType
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.NotesEvent
 
 @Composable
 fun OrderSection(

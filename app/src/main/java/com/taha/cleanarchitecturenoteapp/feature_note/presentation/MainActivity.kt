@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_note.presentation
+package com.taha.cleanarchitecturenoteapp.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,10 +11,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.components.AddEditNoteScreen
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.notes.components.NotesScreen
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.util.Screen
-import com.plcoding.cleanarchitecturenoteapp.ui.theme.CleanArchitectureNoteAppTheme
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.components.AddEditNoteScreen
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.components.NotesScreen
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.util.Screen
+import com.taha.cleanarchitecturenoteapp.ui.theme.CleanArchitectureNoteAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

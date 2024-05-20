@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.components
+package com.taha.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.components
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.Animatable
@@ -37,9 +37,9 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model.Note
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.AddEditNoteEvent
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.AddEditNoteViewModel
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.model.Note
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.AddEditNoteEvent
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.AddEditNoteViewModel
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 

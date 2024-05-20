@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.notes.components
+package com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer

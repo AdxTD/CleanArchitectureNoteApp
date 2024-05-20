@@ -1,15 +1,15 @@
-package com.plcoding.cleanarchitecturenoteapp.di
+package com.taha.cleanarchitecturenoteapp.di
 
 import android.app.Application
 import androidx.room.Room
-import com.plcoding.cleanarchitecturenoteapp.feature_note.data.data_source.NoteDatabase
-import com.plcoding.cleanarchitecturenoteapp.feature_note.data.repository.NoteRepositoryImpl
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.repository.NoteRepository
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.use_case.AddNoteUseCase
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.use_case.DeleteNoteUseCase
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.use_case.GetNoteUseCase
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.use_case.GetNotesUseCase
-import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.use_case.NoteUseCases
+import com.taha.cleanarchitecturenoteapp.feature_note.data.data_source.NoteDatabase
+import com.taha.cleanarchitecturenoteapp.feature_note.data.repository.NoteRepositoryImpl
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.repository.NoteRepository
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.use_case.AddNoteUseCase
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.use_case.DeleteNoteUseCase
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.use_case.GetNoteUseCase
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.use_case.GetNotesUseCase
+import com.taha.cleanarchitecturenoteapp.feature_note.domain.use_case.NoteUseCases
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

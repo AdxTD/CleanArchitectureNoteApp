@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalAnimationApi::class)
 
-package com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.notes.components
+package com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.components
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.AnimatedVisibility
@@ -38,9 +38,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.notes.NotesEvent
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.notes.NotesViewModel
-import com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.util.Screen
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.NotesEvent
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.NotesViewModel
+import com.taha.cleanarchitecturenoteapp.feature_note.presentation.util.Screen
 import kotlinx.coroutines.launch
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
