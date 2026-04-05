@@ -2,7 +2,6 @@
 
 package com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.components
 
-import android.annotation.SuppressLint
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.fadeIn
@@ -43,7 +42,6 @@ import com.taha.cleanarchitecturenoteapp.feature_note.presentation.notes.NotesVi
 import com.taha.cleanarchitecturenoteapp.feature_note.presentation.util.Screen
 import kotlinx.coroutines.launch
 
-@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun NotesScreen(
      navController: NavController,
@@ -69,7 +67,7 @@ fun NotesScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(16.dp)
+                .padding(it)
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),

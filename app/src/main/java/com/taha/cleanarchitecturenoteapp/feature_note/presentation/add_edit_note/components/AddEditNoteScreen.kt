@@ -1,6 +1,5 @@
 package com.taha.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note.components
 
-import android.annotation.SuppressLint
 import androidx.compose.animation.Animatable
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -43,7 +42,6 @@ import com.taha.cleanarchitecturenoteapp.feature_note.presentation.add_edit_note
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
-@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun AddEditNoteScreen(
     navController: NavController,
@@ -94,7 +92,7 @@ fun AddEditNoteScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .background(noteBackgroundAnimatable.value)
-                .padding(16.dp)
+                .padding(it)
         ) {
             Row(
                 modifier = Modifier
