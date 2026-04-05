@@ -6,14 +6,14 @@ plugins {
 }
 
 android {
-    compileSdk 34
+    compileSdk 36
 
     namespace 'com.taha.cleanarchitecturenoteapp'
 
     defaultConfig {
         applicationId "com.taha.cleanarchitecturenoteapp"
         minSdk 21
-        targetSdk 35
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
